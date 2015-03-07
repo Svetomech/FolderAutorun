@@ -1,2 +1,4 @@
 # FolderAutorun
-Belongs to my series of small projects
+A tool to add all files from given directory to Windows autorun
+
+**Usage:** *drag&drop™ any folder onto exe and see what happens*
