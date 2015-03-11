@@ -28,7 +28,7 @@ namespace SmallProjects
       string file_path = Path.GetFullPath(file);
 
       // Triple sanity check
-      if (File.Exists(file_path))
+      if (!autorun || File.Exists(file_path))
       {
         string file_name = Path.GetFileNameWithoutExtension(file_path);
         string entry_name = String.Format("{0}_{1}", app_title, file_name);
